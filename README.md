@@ -148,7 +148,7 @@ flowchart TB
     # 3번 유레카 클라이언트 a 구동 - localhost:9003
     ./run-client-a-3.sh
     ```
-3. 유레카 대시보드 확인
+3. 유레카 대시보드 확인  
     <img src="images/eureka-dashboard.png" style="display: block; margin: 0 auto" width="60%" title="서비스 등록 확인">
 4. client-a 서비스에 접근하여 client-b의 결과를 반환하는 요청을 반복하여 서비스 b가 라우팅되는지 확인한다.  
    다음과 같이 feign client의 명칭을 서비스 레지스트리에 등록된 서비스명으로만 설정한다.
